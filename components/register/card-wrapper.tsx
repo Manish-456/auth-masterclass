@@ -8,8 +8,8 @@ import {
 } from "@/components/ui/card";
 
 import { Header } from "@/components/auth/header";
-import { Social } from "./social";
 import { BackButton } from "./back-button";
+import { Social } from "@/components/auth/social";
 
 interface CardWrapperProps {
   children: React.ReactNode;
