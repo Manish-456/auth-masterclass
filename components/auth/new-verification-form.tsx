@@ -25,7 +25,7 @@ export function NewVerificationForm() {
         setSuccess(data.success);
         setError(data.error)
        }).catch(()=>setError("Something went wrong"))
-    }, [token]);
+    }, [token, error, success]);
 
     
 
